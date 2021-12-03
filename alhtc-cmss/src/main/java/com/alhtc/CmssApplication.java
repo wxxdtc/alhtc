@@ -9,8 +9,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @author wangxiaoxu
  */
 @SpringBootApplication
-public class AlhtcApplication {
+public class CmssApplication {
 	public static void main(String[] args) {
-		SpringApplication.run(AlhtcApplication.class, args);
+		SpringApplication.run(CmssApplication.class, args);
 	}
 }

@@ -24,6 +24,7 @@
         <bitwalker.version>1.21</bitwalker.version>
         <kaptcha.version>2.3.2</kaptcha.version>
         <oshi.version>5.8.2</oshi.version>
+        <mybatis.plus.version>3.4.2</mybatis.plus.version>
     </properties>
 
     <modules>
@@ -31,6 +32,7 @@
         <module>alhtc-system</module>
         <module>alhtc-common</module>
         <module>alhtc-framework</module>
+        <module>alhtc-cmss</module>
     </modules>
 
     <!-- 依赖声明 -->
@@ -66,6 +68,12 @@
                 <version>${pagehelper.boot.version}</version>
             </dependency>
 
+            <dependency>
+                <groupId>com.baomidou</groupId>
+                <artifactId>mybatis-plus-boot-starter</artifactId>
+                <version>${mybatis.plus.version}</version>
+            </dependency>
+
             <!-- 阿里JSON解析器 -->
             <dependency>
                 <groupId>com.alibaba</groupId>
@@ -85,6 +93,13 @@
                 <groupId>org.apache.commons</groupId>
                 <artifactId>commons-collections4</artifactId>
                 <version>${commons.collections4.version}</version>
+            </dependency>
+
+            <!-- 通用工具-->
+            <dependency>
+                <groupId>com.alhtc</groupId>
+                <artifactId>alhtc-admin</artifactId>
+                <version>${alhtc.version}</version>
             </dependency>
 
             <!-- 通用工具-->
